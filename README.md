@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Viral-Reel-Adda
 
-## Getting Started
+> Ready-to-Upload Reels. Create More. Grow Faster.
 
-First, run the development server:
+**Viral Reel Adda** is a premium, mobile-first e-commerce platform offering curated, watermark-free vertical video bundles (1080x1920 Full HD) for Instagram Reels and YouTube Shorts creators.
+
+## 🚀 Features
+
+- **9 Trending Video Bundles**:
+  - 500+ AI Health Tips Reels Video Bundle
+  - 3000+ Anime Reels Bundle
+  - 500+ AI Hulk Story Reels Bundle
+  - 2000+ Stickman Animation Reels Bundle
+  - 1000+ AI Story Reels Bundle
+  - 500+ 2D Animation Reels
+  - 1000+ Space Reels
+  - 1000+ Nature Reels
+  - 5000+ Gym Workout Reels Bundle
+- **Free Growth Mastery Courses**: Every purchase includes YouTube Shorts & Instagram Reels Growth Mastery Courses (Worth ₹1,998) for FREE.
+- **Persistent Shopping Cart**: Mobile-first cart drawer + dedicated cart page with local storage persistence and duplicate handling.
+- **Dynamic UPI QR Payment**: Generates dynamic NPCI UPI QR codes directly encoded with the exact cart total and unique order reference.
+- **WhatsApp Order Confirmation**: Generates a formatted order summary message sent to WhatsApp for manual payment verification.
+- **Manual Verification Workflow**: Orders are safely set to "Payment Pending Verification" awaiting admin approval.
+
+## 🛠 Tech Stack
+
+- **Framework**: Next.js 16 (Turbopack, App Router)
+- **UI & Styling**: React 19, Tailwind CSS v4
+- **Language**: TypeScript
+
+## 📦 Getting Started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To build for production:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run build
+npm run start
+```
